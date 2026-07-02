@@ -1,7 +1,7 @@
 import { getAllCharacters , createCharacter, getCharacterById,updateCharacter,deleteCharacter, toggleCharacterFavorite } from "../services/character.service.js";
 
 async function getAllCharactersHandler(req, res) {
-  const characters = await getAllCharacters();
+  const characters = await getAllCharacters(req.query);
   res.status(200).json(characters);
 }
 

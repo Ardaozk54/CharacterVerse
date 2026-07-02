@@ -1,8 +1,29 @@
 import { findAll,create, findById,update,remove,toggleFavorite} from "../repositories/character.repository.js";
 
 
-async function getAllCharacters() {
-  const characters = await findAll();
+async function getAllCharacters(queryParams) {
+  const filters = {};
+  if(queryParams.search){
+    filters.name={contains: queryParams.search};
+  }
+    if (queryParams.universe) {
+    filters.universe = queryParams.universe;
+}
+    if (queryParams.role) {
+    filters.role = queryParams.role;
+}
+  if (queryParams.status) {
+  filters.status = queryParams.status;
+}
+if (queryParams.favorite === "true") {
+  filters.isFavorite = true;
+}
+
+if (queryParams.minRating) {
+  filters.rating = { gte: Number(queryParams.minRating) };
+}
+  const characters = await findAll(filters);
+  
 
   return characters ;
 }

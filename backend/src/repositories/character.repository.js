@@ -1,7 +1,9 @@
 import prisma from "../prismaClient.js";
 
- async function findAll() {
-  const characters = await prisma.character.findMany()
+ async function findAll(filters) {
+  const characters = await prisma.character.findMany({
+    where: filters, 
+  })
   return characters;
 }
 

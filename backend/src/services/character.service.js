@@ -7,10 +7,11 @@ async function getAllCharacters(queryParams) {
     filters.name={contains: queryParams.search};
   }
     if (queryParams.universe) {
-    filters.universe = queryParams.universe;
+  filters.universe = { contains: queryParams.universe };
+
 }
     if (queryParams.role) {
-    filters.role = queryParams.role;
+    filters.role = {contains: queryParams.role};
 }
   if (queryParams.status) {
   filters.status = queryParams.status;

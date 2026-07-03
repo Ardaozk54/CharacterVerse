@@ -1,0 +1,46 @@
+.page-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.character-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-character{
+
+  gap: 5px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+  width: 140px;
+  align-items: center;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+  margin:  20px 20px;
+}
+
+.btn-character:hover{
+ 
+  background-color: var(--color-surface-hover);
+  transform: translateY(-2px);
+  cursor: pointer;
+
+}
+
+.btn-add-c{
+  margin-top: 24px;
+}
+

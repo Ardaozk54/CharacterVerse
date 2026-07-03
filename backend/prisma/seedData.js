@@ -6,7 +6,7 @@ const characters = [
     skill: "Chemistry and manipulation",
     rating: 9,
     status: "DEAD",
-    imageUrl: "",
+    imageUrl: "/images/Walter_White_S5B.png",
     description: "A chemistry teacher turned drug lord.",
   },
   {
@@ -16,7 +16,7 @@ const characters = [
     skill: "Swordsmanship and magic signs",
     rating: 8,
     status: "ALIVE",
-    imageUrl: "",
+    imageUrl: "/images/geralt.jpg",
     description: "A monster hunter for hire, navigating a morally grey world.",
   },
   {
@@ -26,7 +26,7 @@ const characters = [
     skill: "Engineering and tactical genius",
     rating: 9,
     status: "DEAD",
-    imageUrl: "",
+    imageUrl: "/images/Robert_Downey,_Jr._2012.jpg",
     description: "A billionaire genius who builds powered armor suits.",
   },
   {
@@ -36,7 +36,7 @@ const characters = [
     skill: "Stealth and swordsmanship",
     rating: 8,
     status: "ALIVE",
-    imageUrl: "",
+    imageUrl: "/images/Arya_Stark.jpg",
     description: "A young noble who becomes a skilled and feared assassin.",
   },
   {
@@ -46,7 +46,7 @@ const characters = [
     skill: "Strategic thinking and manipulation",
     rating: 7,
     status: "DEAD",
-    imageUrl: "",
+    imageUrl: "/images/Light_from_Death_Note.jpg",
     description: "A brilliant student who gains the power to kill with a notebook.",
   },
   {
@@ -56,7 +56,7 @@ const characters = [
     skill: "Telekinesis and psychic abilities",
     rating: 8,
     status: "ALIVE",
-    imageUrl: "",
+    imageUrl: "/images/Eleven_(Stranger_Things).jpg",
     description: "A girl with psychokinetic powers escaping a secret lab.",
   },
 ];

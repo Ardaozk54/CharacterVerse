@@ -181,20 +181,3 @@ Each character record includes:
 | `description` | Free-text description |
 | `isFavorite` | Boolean favorite flag |
 
-## 🗺 Roadmap
-
-Some ideas for future improvements:
-
-- [ ] Move the frontend API base URL into an environment variable
-- [ ] Add authentication for multi-user support
-- [ ] Add pagination for large character lists
-- [ ] Add automated tests (backend + frontend)
-- [ ] Deploy a live demo
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/Ardaozk54/CharacterVerse/issues) or open a pull request.
-
-## 📄 License
-
-No license has been specified yet. If you plan to open this project up for contributions or reuse, consider adding one (e.g. [MIT](https://choosealicense.com/licenses/mit/)).

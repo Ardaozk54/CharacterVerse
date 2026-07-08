@@ -17,6 +17,8 @@
   --font-body: 'Inter', sans-serif;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -42,6 +44,21 @@ body {
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
+
+  [data-theme="light"] {
+  --color-text-primary: #242424;
+  --color-text-secondary: #454545;
+  --color-white: #000000;
+  --color-bg: #f7f7f9;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f1f3;
+  --color-border: #d9d9df;
+  --text-h: #18181b;
+  --color-text-primary: #18181b;
+  --color-text-secondary: #5d5d67;
+
+  --color-accent: #d97706;
+}
 
   #social .button-icon {
     filter: invert(1) brightness(2);

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import toast from "react-hot-toast";
+import Spinner from "../components/Spinner";
 import { getCharacterById, deleteCharacter } from "../services/characterApi";
 import { toggleFavorite } from "../services/characterApi";
 import "./CharacterDetailPage.css";
@@ -82,7 +83,7 @@ function CharacterDetailPage() {
   
 
   if (loading) {
-    return <p className="page-container">Loading...</p>;
+    return <Spinner/>
   }
 
   if (error) {

@@ -4,8 +4,11 @@ import CharacterListPage from "./pages/CharacterListPage";
 import CharacterDetailPage from "./pages/CharacterDetailPage";
 import AddCharacterPage from "./pages/AddCharacterPage";
 import UpdateCharacter from "./components/UpdateCharacter";
+import { ThemeProvider } from "./context/ThemeContext";
+import ThemeToggle from "./components/ThemeToggle";
 function App() {
   return (
+  <ThemeProvider>
     <BrowserRouter>
      <Toaster position="top-center" />
       <Routes>
@@ -16,8 +19,12 @@ function App() {
 
         
 
+
+      
       </Routes>
+    <ThemeToggle />
     </BrowserRouter>
+    </ThemeProvider>
   );
 }
 

@@ -27,8 +27,7 @@ List them. Filter them. Favorite them. Add your own.
 - [API Reference](#-api-reference)
 - [Data Model](#-data-model)
 - [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
+
 
 ## 🧭 About
 
